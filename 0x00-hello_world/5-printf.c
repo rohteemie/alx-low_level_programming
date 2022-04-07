@@ -1,13 +1,12 @@
 #include <stdio.h>
 /**
- * The MAIN entry point
+ * main - entry point
  *
- * use of function printf
- *
- * output should be zero
+ * Return: 0 after printing the function
  */
+
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
