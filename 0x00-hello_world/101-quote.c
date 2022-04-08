@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Return: 1 after printinh the function
+ * Return: 1 after write function
  */
 int main(void)
 {
