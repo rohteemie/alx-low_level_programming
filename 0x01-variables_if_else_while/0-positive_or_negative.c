@@ -3,7 +3,7 @@
 #include <time.h>
 /* more headers goes there */
 /**
- * main: this is where the program start from
+ * main - Entry point
  *
  * Return: 0 after a sucessfull run
  */
