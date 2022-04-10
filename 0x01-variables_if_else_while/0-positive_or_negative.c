@@ -3,7 +3,7 @@
 #include <time.h>
 /* more headers goes there */
 /**
- * main - Entry point
+ * main  - Entry point
  *
  * Return: 0 after a sucessfull run
  */
