@@ -3,7 +3,7 @@
 /**
  * puts_half - Prints out the first half of a string.
  * @str: input string to print.
-*/
+ */
 
 void puts_half(char *str)
 {
@@ -16,11 +16,9 @@ void puts_half(char *str)
 		else
 			m = (len + 1) / 2;
 	}
-	
 	for (i = m; i < len; i++)
 	{
 		_putchar(str[i]);
 	}
-	
 	_putchar('\n');
 }
