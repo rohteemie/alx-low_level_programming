@@ -1,5 +1,5 @@
 /**
- * swao_int - switches value of first input withvthe value of the second input
+ * swap_int - switches value of first input withvthe value of the second input
  * @a: First value to swap
  * @b: Second value to swap
  */
