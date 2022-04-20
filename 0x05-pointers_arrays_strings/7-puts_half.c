@@ -12,7 +12,6 @@ void puts_half(char *str)
 	for (len = 0; str[len] != '\0'; len++)
 	{
 	}
-	
 	if ((len % 2) == 0)
 		m = (len / 2);
 	else
