@@ -1,34 +1,63 @@
-#include <stdio.h>
 #include <stdlib.h>
+
+#include <stdio.h>
+
 #include <time.h>
 
+
+
 /**
- * main: entry point
- * Description: generate random numb.
- * Return: always 0
+
+ * main - paso
+
+ *
+
+ * Return: int 0;
+
  */
 
 int main(void)
+
 {
-	int sum, i, r;
 
-	char decode[27] = "abcdefghijklmnopqrstuvwxyz";
-	char key[30];
+	char str[100];
 
-	sum = 0;
-	i = 0;
+	int i = 0, randNum = 0, suma = 0;
 
-	srand(time(NULL));
 
-	while (sum < 2772)
+
+	srand (time(NULL));
+
+
+
+
+
+	for (i = 0; suma <= 2644; i++)
+
 	{
-		r = rand() % 10;
-		key[i] = decode[r];
-		sum += key[i];
-		i++;
+
+		randNum = (rand() % 25) + 65;
+
+
+
+		str[i] = randNum;
+
+		suma = suma + randNum;
+
 	}
-	r = 2772 - sum;
-	key[i] = r;
-	printf("%s\n", key);
+
+
+
+	str[i++] = 2772 - suma;
+
+	str[i++] = '\0';
+
+
+
+	printf("%s\n", str);
+
+
+
 	return (0);
+
 }
